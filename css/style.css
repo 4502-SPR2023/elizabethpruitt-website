@@ -1,42 +1,52 @@
 h1 {
-  font-size: 42pt;
-  font-family: 'Gloock', serif;
+  font-size: 50pt;
+  font-family: 'Anton', sans-serif;
   text-align: center;
 }
 
 h2 {
-  font-size: 30pt;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Anton', sans-serif;
+  font-size: 35pt;
+  text-align: center;
 
 }
 
 h3 {
-  font-size: 20pt;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 25pt;
+  text-align: center;
 }
 
 h4 {
-  font-size: 17pt;
-  font-family: 'Unna', serif;
-  font-style: underline;
-  color: #25568A; /*YlnMn Blue*/
+  font-family: 'Lato', sans-serif;
+  font-size: 20pt;
+  text-align: center;
+  color: darkviolet;
 }
 
 h5 {
   font-size: 19pt;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
-h6 {
-  font-size: 15pt;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+p {
+  font-size: 14pt;
+  font-family: 'Lato', sans-serif;
 }
 
-p {
-  font-size: 15pt;
-  font-family: 'Playfair Display', serif;
+.email {
+  font-family: 'Anton', sans-serif;
+  font-size: 35pt;
+  text-align: center;
+  color: seagreen;
+}
+
+.instagram {
+  font-family: 'Lato', sans-serif;
+  font-size: 25pt;
+  text-align: center;
+  color: darkcyan;
 }
 
 .text {
@@ -58,27 +68,26 @@ p {
 
 body {
   margin: 0px;
-  background-color: #BAE7F1; /*non photo blue*/
+  background-color: #A5A58D;
   font-family: 'Playfair Display', serif;
 }
 
 main {
   width: 90%;
   max-width: 1500px;
-  background-color: #fffdfa; /*baby powder*/
-  border-radius: 1rem;
+  background-color: white;
   padding: 1rem 1rem;
   box-sizing: border-box;
   margin: 1rem auto;
 }
 
 nav {
-  color: #BAE7F1; /*non photo blue*/
-  background-color: #fffdfa; /*baby powder*/
+  color: #A5A58D;
+  background-color: white;
   padding: 0;
   display: block;
   margin: 0;
-  border-bottom: 3px solid #fffdfa; /*baby powder*/
+  border-bottom: 3px solid white;
 }
 
 nav li, nav li a {
@@ -117,7 +126,7 @@ nav li, nav li a {
 }
 
 .active {
-  background-color: #BAE7F1; /*non photo blue*/
+  background-color: #A5A58D; /*non photo blue*/
   color: #000; /*baby powder*/
   padding: 1rem;
 }
