@@ -1,0 +1,184 @@
+h1 {
+	font-size: 50pt;
+	font-family: 'Poller One', cursive;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 35pt;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 25pt;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 20pt;
+	text-align: center;
+	color: darkviolet;
+}
+
+p {
+	font-size: 14pt;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.email {
+  font-family: 'Anton', sans-serif;
+  font-size: 35pt;
+  text-align: center;
+  color: seagreen;
+}
+
+.instagram {
+  font-family: 'Lato', sans-serif;
+  font-size: 25pt;
+  text-align: center;
+  color: darkcyan;
+}
+
+body {
+  margin: 0px;
+  background-color: #A5A58D;
+  font-family: 'Anton', sans-serif;
+}
+
+main {
+  width: 90%;
+  max-width: 1500px;
+  background-color: white;
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+}
+
+ul, ol {
+  list-style-type: none;
+  text-align: center;
+  font-size: 25pt;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
+nav {
+color: #A5A58D;
+  background-color: white;
+  padding: 0;
+  display: block;
+  margin: 0;
+  border-bottom: 3px solid white;
+}
+
+nav li, nav li a {
+  width: 100%;
+  padding: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list{
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 18pt;
+}
+
+a {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25pt;
+  font-family: 'Lato', sans-serif;
+  color: mediumvioletred;
+  text-decoration: none;
+}
+
+img, picture, video {
+  max-width: 100%;
+}
+
+.portrait {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.list-title{
+	font-size: 35pt;
+	font-family: 'Anton', sans-serif;
+	font-style: bold;
+	text-align: center;
+}
+
+.active {
+  background-color: #A5A58D; 
+  color: black; 
+  padding: 1rem;
+}
+
+.text {
+  text-align: center;
+}
+
+.border {
+  border-left: solid 3px darkviolet; 
+  padding-left: 3rem;
+}
+
+.text-align {
+  text-align: center;
+}
+
+
+@media (min-width: 555px) {
+
+  .media-holder {
+    flex-direction: row;
+  }
+
+  .image-holder {
+    width: 30%;
+  }
+
+  .media-holder .text-holder {
+    width: 70%;
+  }
+
+  nav ul {
+   display: flex;
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 800px) {
+
+  .image-holder {
+    width: 400px;
+  }
+
+  .media-holder .text-holder {
+    width: 100%;
+  }
+
+  nav li {
+    width: 24%;
+  }
+
+  h1 {
+    font-size: 32;
+  }
+}
+
