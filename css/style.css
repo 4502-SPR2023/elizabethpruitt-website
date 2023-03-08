@@ -78,6 +78,7 @@ p {
   font-family: 'Anton', sans-serif;
   font-style: bold;
   text-align: center;
+  color: indigo;
 }
 
 body {
@@ -139,7 +140,7 @@ nav li, nav li a {
   align-items: center;
 }
 
-ul, ol {
+.song-list {
   list-style-type: none;
   text-align: center;
   font-size: 20pt;
