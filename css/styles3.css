@@ -1,0 +1,317 @@
+.oldindex {
+  font-family: 'Lato', sans-serif;
+  font-size: 35pt;
+  text-align: center;
+  color: darkviolet;
+}
+
+h1 {
+  font-size: 50pt;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 35pt;
+  text-align: left;
+
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 25pt;
+  text-align: left;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 17pt;
+  text-align: left;
+  color: black;
+  font-style: italic;
+}
+
+h5 {
+  font-size: 19pt;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  color: black;
+}
+
+p {
+  font-size: 14pt;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.email {
+  font-family: 'Anton', sans-serif;
+  font-size: 35pt;
+  text-align: center;
+  color: seagreen;
+}
+
+.instagram {
+  font-family: 'Lato', sans-serif;
+  font-size: 25pt;
+  text-align: center;
+  color: darkcyan;
+}
+
+.text {
+  text-align: center;
+}
+
+.border {
+  border-left: solid 3px #C9B2D6; /*pale violet*/
+  padding-left: 3rem;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.img-align{
+  align-content: center;
+}
+
+.list-title{
+  font-size: 35pt;
+  font-family: 'Anton', sans-serif;
+  font-style: bold;
+  text-align: center;
+  color: indigo;
+}
+
+body {
+  margin: 0px;
+  background-color: #A5A58D;
+  font-family: 'Playfair Display', serif;
+}
+
+main {
+  width: 90%;
+  max-width: 1500px;
+  background-color: white;
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+}
+
+nav {
+  color: #A5A58D;
+  background-color: white;
+  padding: 0;
+  display: block;
+  margin: 0;
+  border-bottom: 3px solid white;
+}
+
+nav li, nav li a {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list{
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+nav a {
+  color: #5D3A73; /*Finn*/
+}
+
+a {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15pt;
+  color: #25568A; /*YlnMn Blue*/
+  text-decoration: none;
+}
+
+nav li, nav li a {
+  width: 100%;
+  padding: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.song-list {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20pt;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
+.active {
+  background-color: #A5A58D; /*non photo blue*/
+  color: #000; /*baby powder*/
+  padding: 1rem;
+}
+
+img, picture, video {
+  max-width: 100%;
+}
+
+
+.media-holder {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+.location-holder {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
+
+.image-holder, .text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.image-holder img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+address {
+  font-style: normal;
+}
+
+.portrait {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+html {
+font-size: 20px;
+}
+
+footer {
+  background: #FFFDFA;
+  color: #ffdfa;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-style: 'Gloock', serif;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+
+@media (min-width: 555px) {
+
+  .media-holder {
+    flex-direction: row;
+  }
+
+  .image-holder {
+    width: 30%;
+  }
+
+  .media-holder .text-holder {
+    width: 70%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 800px) {
+
+  .image-holder {
+    width: 400px;
+  }
+
+  .media-holder .text-holder {
+    width: 100%;
+  }
+
+  nav li {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    font-size: 32;
+  }
+}
+
+
+@media (max-width: 390px) {
+
+  .image-holder {
+    width: 250px;
+  }
+
+  .media-holder .text-holder {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 25pt;
+  }
+
+  .email {
+    font-size: 20pt;
+  }
+
+  h2 {
+    font-size: 20pt;
+  }
+
+  h3 {
+    font-size: 18pt;
+  }
+
+  h5 {
+    font-size: 15pt;
+  }
+
+  p {
+    font-size: 14pt;
+  }
+}
+
+
+
+
+
+
+
